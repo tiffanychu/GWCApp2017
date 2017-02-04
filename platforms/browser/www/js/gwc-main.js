@@ -23,7 +23,7 @@ function main(app)
                 //Set background color, and onclick for each elements
                 elements[i].onclick = alert.bind(undefined,"Element #"+i+" clicked.");
             }
-        
+
 }
 /**
  * Changes the text of the paragraph with id "paragraph-1"
